@@ -35,8 +35,8 @@ A web-based **Visitor Management System** built using **Django**, designed to ma
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/visitor-management.git
-cd visitor-management
+git clone https://github.com/vedantthate/Company-Visitor-Management-System.git
+cd Company-Visitor-Management-System-main
 ```
 
 ### 2. Create a Virtual Environment
@@ -72,21 +72,40 @@ Visit `http://127.0.0.1:8000` to open the app.
 ## 📁 Project Structure
 
 ```
-visitor-management/
-│
-├── manage.py
-├── db.sqlite3
-├── visitor_app/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   └── templates/
-│       └── ...html files
-├── static/
-│   └── css/js/images
-├── templates/
-│   └── base.html
-└── README.md
+Company-Visitor-Management-System/
+└── Company-Visitor-Management-System-main/
+    ├── .gitignore
+    ├── README.md
+    ├── manage.py
+    ├── requirements.txt
+    ├── Company_visiter/
+    │   ├── __init__.py
+    │   ├── asgi.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    ├── app/
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   ├── urls.py
+    │   ├── views.py
+    │   ├── migrations/
+    │   └── templates/
+    │       ├── dashboard.html
+    │       ├── forgetpass.html
+    │       ├── login.html
+    │       ├── managevisiter.html
+    │       ├── newpassword.html
+    │       ├── newvisiter.html
+    │       ├── profile.html
+    │       ├── register.html
+    │       ├── update_visiter.html
+    │       ├── visiablebydate.html
+    │       └── visitbydate.html
+
 ```
 
 ---
@@ -103,7 +122,14 @@ python manage.py createsuperuser
 
 ## ✍️ Screenshots
 
-> 📌 Add some screenshots of your dashboard, add/search forms, etc.
+### 📊 Dashboard View
+![Dashboard](screenshots/dashboard.png)
+
+### ➕ Add Visitor Form
+![Add Visitor](screenshots/add_visitor.png)
+
+### 📋 Manage Visitors Table
+![Manage Visitors](screenshots/manage_visitors.png)
 
 ---
 
@@ -119,8 +145,8 @@ python manage.py createsuperuser
 ## 🧑‍💻 Author
 
 - **Vedant Thate**
-- GitHub: [@yourusername](https://github.com/yourusername)
-
+- GitHub: [@yourusevedantthatername](https://github.com/vedantthate)
+- Email: vedantthate19@gmail.com
 ---
 
 ## 📄 License
