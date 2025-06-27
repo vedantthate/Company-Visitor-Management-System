@@ -145,7 +145,7 @@ python manage.py createsuperuser
 ## 🧑‍💻 Author
 
 - **Vedant Thate**
-- GitHub: [@yourusevedantthatername](https://github.com/vedantthate)
+- GitHub: [@vedantthate](https://github.com/vedantthate)
 - Email: vedantthate19@gmail.com
 ---
 
