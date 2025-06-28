@@ -36,7 +36,7 @@ A web-based **Visitor Management System** built using **Django**, designed to ma
 
 ```bash
 git clone https://github.com/vedantthate/Company-Visitor-Management-System.git
-cd Company-Visitor-Management-System-main
+cd Company_visiter
 ```
 
 ### 2. Create a Virtual Environment
@@ -132,13 +132,6 @@ python manage.py createsuperuser
 ![Manage Visitors](screenshots/manage_visitors.png)
 
 ---
-
-## 💡 Future Enhancements
-
-- Email notification to admin on new visitor
-- PDF download/export of visitor logs
-- Role-based access (e.g., receptionist, security)
-- Integration with RFID or QR scan
 
 ---
 
